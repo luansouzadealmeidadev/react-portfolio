@@ -1,9 +1,10 @@
+import styles from './navbar.modules.css'
 
 export const Navbar = () => {
     return (
-        <nav>
-            <a href="/">Portfolio</a>
-            <div>
+        <nav className={styles.Navbar}>
+            <a className={styles.title} href="/">Portfolio</a>
+            <div className={styles.menu}>
                 <ul>
                     <li>
                         <a href="#about">About</a>
@@ -15,7 +16,7 @@ export const Navbar = () => {
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
-                    <a href="#contact">Contact</a>                         
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
