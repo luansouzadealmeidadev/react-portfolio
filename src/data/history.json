@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Mobile developer",
+    "organisation": "Trizy",
+    "startDate": "Feb, 2022",
+    "endDate": "Present",
+    "experiences": ["Worked on mobile app trizy", "fullstack using Flutter and React native"],
+    "imageSrc": "history/trizy.png"
+  },
+  {
+    "role": "Web developer",
+    "organisation": "trizy",
+    "startDate": "Feb, 2021",
+    "endDate": "Feb, 2022",
+    "experiences": ["Worked on website trizy TSM ", "new features and bugs", "using React, Angular and NodeJS"],
+    "imageSrc": "history/trizy.png"
+  },
+  {
+    "role": "Internal microservices",
+    "organisation": "UNIMED",
+    "startDate": "Jan, 2020",
+    "endDate": "Feb, 2021",
+    "experiences": [
+      "Microservices supporting computer and infrastructure.",
+      "Support for the Tazy system and its parameterizations."
+    ],
+    "imageSrc": "history/unimed.png"
+  }
+]
