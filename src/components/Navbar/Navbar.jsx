@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import {i18next} from '../../../src/translate/i18n'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+      {i18next.t('titles.app')}
       </a>
       <div className={styles.menu}>
         <img
@@ -27,16 +28,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about"> {i18next.t('navbar.about')}</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">{i18next.t('navbar.experience')}</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">{i18next.t('navbar.projects')}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{i18next.t('navbar.contact')}</a>
           </li>
         </ul>
       </div>

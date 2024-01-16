@@ -2,18 +2,17 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-
+import {i18next} from '../../../src/translate/i18n'
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Luan</h1>
+        <h1 className={styles.title}>{i18next.t('Hero.MeHero')}</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 3 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        {i18next.t('Hero.describe')}
         </p>
         <a href="mailto:luansouzadealmeidadev@gmail.com" className={styles.contactBtn}>
-          Contact Me
+        {i18next.t('buttons.contact')}
         </a>
       </div>
       <img
