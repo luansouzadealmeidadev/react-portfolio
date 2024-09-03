@@ -33,9 +33,7 @@ export const Navbar = () => {
           <li>
             <a href="#experience">{i18next.t('navbar.experience')}</a>
           </li>
-          <li>
-            <a href="#projects">{i18next.t('navbar.projects')}</a>
-          </li>
+         
           <li>
             <a href="#contact">{i18next.t('navbar.contact')}</a>
           </li>

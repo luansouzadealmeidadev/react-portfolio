@@ -1,9 +1,18 @@
 [
   {
+    "role": "Systems Analyst",
+    "organisation": "Coamo Agroindustrial",
+    "startDate": "Feb, 2023",
+    "endDate": "Present",
+    "experiences": ["data modeling and web, mobile and ERP programming"],
+    "imageSrc": "history/coamo.png"
+  },
+
+  {
     "role": "Mobile developer",
     "organisation": "Trizy",
     "startDate": "Feb, 2022",
-    "endDate": "Present",
+    "endDate": "Feb, 2023",
     "experiences": ["Worked on mobile app trizy", "fullstack using Flutter and React native"],
     "imageSrc": "history/trizy.png"
   },
