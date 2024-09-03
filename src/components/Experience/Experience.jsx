@@ -1,10 +1,8 @@
 import React from "react";
-
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
-import Curriculo from '../../../assets/files/EN-luanSouzadeAlmeida.pdf'
 export const Experience = () => {
   return (
     <div>
@@ -49,9 +47,7 @@ export const Experience = () => {
       </div>
       
     </section>
-    <a href={Curriculo} className={styles.contactBtn} download="EN-Luan Souza de ALmeida">
-          Download my Curriculum
-        </a>
+   
     </div>
   );
 };
